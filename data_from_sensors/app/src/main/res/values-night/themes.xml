@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Data_from_sensors" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+</resources>
