@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Анализ данных"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Общая капитализация"/>
+    <TextView
+        android:id="@+id/tvTotalCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Компаний с капитализацией выше среднего"/>
+    <TextView
+        android:id="@+id/tvAboveAvg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Компаний с англоязычными названиями"/>
+    <TextView
+        android:id="@+id/tvEngNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Компания с самой высокой капитализацией"/>
+    <TextView
+        android:id="@+id/tvMaxCapName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Компания с самым длинным названием"/>
+    <TextView
+        android:id="@+id/tvLongestName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

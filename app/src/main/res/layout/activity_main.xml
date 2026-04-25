@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Капитализация российских компаний на конец 2020 года"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите часть имени компании"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Group" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="УДАЛИТЬ КОМПАНИИ С ТАКИМИ ИМЕНАМИ ИЗ БАЗЫ"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnAnalyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="АНАЛИЗ ДАННЫХ"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
